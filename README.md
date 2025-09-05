@@ -18,9 +18,14 @@ Further reading:
 
 ---
 
-## 🔑 Authentication Example
+## 🚀 Available Samples
 
-Every request to a tapio API must include the `AuthorizationKey` in the `Authorization` header:
+This repository contains sample projects showing how to call tapio APIs using Basic Auth:
 
-```http
-Authorization: Basic <AuthorizationKey>
+- dotnet-sample/ – C# example using HttpClient
+
+### Each sample demonstrates:
+
+- How to configure the AuthorizationKey
+- How to send requests to Tadamo and Maintenance Service
+- How to handle common errors (401 Unauthorized, 403 Forbidden)
