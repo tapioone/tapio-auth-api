@@ -4,7 +4,7 @@
 
 </div>
 
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/tapioone/tapio-auth-api/CI/master)](https://github.com/tapioone/tapio-auth-api/actions)
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/tapioone/tapio-auth-api/ci.yml?branch=master)](https://github.com/tapioone/tapio-auth-api/actions)
 [![GitHub](https://img.shields.io/github/license/tapioone/tapio-auth-api)](https://github.com/tapioone/tapio-auth-api/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/tapioone/tapio-auth-api)](https://github.com/tapioone/tapio-auth-api/issues)
 
@@ -14,18 +14,31 @@ AuthorizationKeys are generated from tapio add-ons (ERP, Kelch, ToolManager Offi
 Further reading:
 
 - [HTTP Basic Authentication (RFC 7617)](https://datatracker.ietf.org/doc/html/rfc7617)  
-- [tapio API Documentation (coming soon)](https://developer.tapio.one)  
 
 ---
 
 ## 🚀 Available Samples
 
-This repository contains sample projects showing how to call tapio APIs using Basic Auth:
+This repository contains sample projects showing how to call tapio APIs using Basic Auth.
 
-- dotnet-sample/ – C# example using HttpClient
+### Sample Location
 
-### Each sample demonstrates:
+The authentication samples can be found in:
 
-- How to configure the AuthorizationKey
-- How to send requests to Tadamo and Maintenance Service
+- **Source Code:** `Source/Tapio.Authentication/Tapio.Authentication/AuthenticationSamples.cs`
+- **Documentation:** `Source/Tapio.Authentication/Tapio.Authentication/README.md`
+
+### Each sample demonstrates
+
+- How to configure the AuthorizationKey with Subscription Id and Application Id
+- How to send requests to Tadamo and Maintenance Service APIs
 - How to handle common errors (401 Unauthorized, 403 Forbidden)
+- Proper error handling patterns for different API clients
+
+### Getting Started
+
+1. Obtain your Subscription Id, Application Id, and Authorization Key from [my.tapio.one](https://my.tapio.one)
+2. Review the sample code in `AuthenticationSamples.cs`
+3. Follow the detailed setup instructions in the documentation
+
+For detailed authentication setup instructions, see the [Authentication Documentation](Source/Tapio.Authentication/Tapio.Authentication/README.md).
