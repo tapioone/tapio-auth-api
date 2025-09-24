@@ -9,7 +9,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/tapioone/tapio-auth-api)](https://github.com/tapioone/tapio-auth-api/issues)
 
 This is a reference implementation of **Basic Authentication with AuthorizationKey** against the tapio APIs (Tadamo, Maintenance Service).  
-AuthorizationKeys are generated from tapio add-ons (ERP, Kelch, ToolManager Office) and can be used to access APIs without registering separate Azure AD applications.
+AuthorizationKeys are generated from tapio add-ons (ERP, Measurement Systems, ToolManager Office) and can be used to access APIs without registering separate Azure AD applications.
 
 Further reading:
 
