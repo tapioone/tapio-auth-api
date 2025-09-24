@@ -14,7 +14,7 @@ Further reading:
 - [HTTP Basic Authentication (RFC 7617)](https://datatracker.ietf.org/doc/html/rfc7617)  
 
 ---
- 
+
 ## 🚀 Available Samples
 
 This repository contains sample projects showing how to call tapio APIs using Basic Auth.
