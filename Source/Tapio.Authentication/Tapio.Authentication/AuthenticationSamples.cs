@@ -14,7 +14,7 @@ public static class AuthenticationSamples
     /// Creates a Tadamo client using basic authentication and prints the tools count.
     /// </summary>
     /// <param name="subscriptionId">Customer's SubscriptionId.</param>
-    /// <param name="applicationId">Application's ApplicationId (e.g. Twinio).</param>
+    /// <param name="applicationId">Application's ApplicationId (e.g. ToolManagerOffice).</param>
     /// <param name="authorizationKey">Authorization key.</param>
     public static async Task CreateTadamoClientWithBasicAuthentication(
         Guid subscriptionId,
@@ -60,7 +60,7 @@ public static class AuthenticationSamples
     /// Creates a MaintenanceService client using basic authentication and prints the maintenance tasks count.
     /// </summary>
     /// <param name="subscriptionId">Customer's SubscriptionId.</param>
-    /// <param name="applicationId">Application's ApplicationId (e.g. Twinio).</param>
+    /// <param name="applicationId">Application's ApplicationId (e.g. ToolManagerOffice).</param>
     /// <param name="authorizationKey">Authorization key.</param>
     public static async Task CreateMaintenanceServiceClientWithBasicAuthentication(
         Guid subscriptionId,
