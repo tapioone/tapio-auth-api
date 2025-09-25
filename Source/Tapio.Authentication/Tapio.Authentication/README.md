@@ -108,4 +108,4 @@ catch (Exception ex)
 }
 ```
 
-The file [AuthenticationSamples.cs](AuthenticationSamples.cs) provides complete examples for authentication with different tapio API clients.
+The file [AuthenticationSamples.cs](https://github.com/tapioone/tapio-samples/blob/master/Source/Tapio.Authentication/Tapio.Authentication/AuthenticationSamples.cs) provides complete examples for authentication with different tapio API clients.
